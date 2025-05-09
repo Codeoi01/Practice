@@ -1,0 +1,43 @@
+
+body{
+
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-image: url(https://www.digitalocean.com/_next/static/media/blog-home-header-bg.3542b661.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+ 
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: white;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu a {
+
+  margin-left: 20px ;
+  text-decoration: none;
+  color: aqua;
+  font-weight: 500;
+
+}
+
+.logo{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #0070f3;
+    
+
+}
+
+div{
+
+text-align: center;
+
+}
