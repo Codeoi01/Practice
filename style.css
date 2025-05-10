@@ -1,15 +1,14 @@
-
-body{
+body {
 
     margin: 0;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     background-image: url(https://www.digitalocean.com/_next/static/media/blog-home-header-bg.3542b661.svg);
     background-repeat: no-repeat;
     background-size: auto;
- 
+
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     text-align: justify;
@@ -20,24 +19,112 @@ body{
 
 .menu a {
 
-  margin-left: 20px ;
-  text-decoration: none;
-  color: aqua;
-  font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+    color: aqua;
+    font-weight: 500;
 
 }
 
-.logo{
+.logo {
 
     font-size: 20px;
     font-weight: bold;
     color: #0070f3;
-    
+
 
 }
 
-div{
+main {
 
-text-align: center;
+    text-align: center;
+    margin: 20px;
+    margin-left: auto;
+}
+
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+
+}
+
+main article {
+
+    width: 320px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 16px;
+    font-family: sans-serif;
+    margin: 20px auto;
+    box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+    text-align: left;
+    float: left;
+}
+
+#sec-tion {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+
+.Category-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    float: left;
+
+
+
+}
+
+.pill {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: #e0f2ff;
+    color: #0366d6;
+    margin: 4px;
+    text-align: center;
+    float: left;
+}
+
+.Category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#read-more {
+
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+    font-weight: 500;
+    float: left;
+
+}
+
+#read-more:hover {
+
+    text-decoration: underline;
 
 }
