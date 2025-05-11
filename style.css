@@ -11,6 +11,7 @@ body {
 .navbar {
     display: flex;
     align-items: center;
+    box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
     text-align: justify;
     background-color: white;
     padding: 20px 50px;
@@ -25,6 +26,7 @@ body {
     font-weight: 500;
 
 }
+
 
 .logo {
 
@@ -89,9 +91,6 @@ main article {
 }
 
 .pill {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
     padding: 6px 12px;
     border-radius: 50px;
     font-size: 14px;
@@ -126,5 +125,13 @@ main article {
 #read-more:hover {
 
     text-decoration: underline;
+
+}
+
+.center-m {
+
+    display: -ms-inline-grid;
+
+
 
 }
