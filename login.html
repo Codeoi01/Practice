@@ -3,7 +3,7 @@
 
 <head>
     <title>LOG IN</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 
 </head>
 
@@ -11,21 +11,60 @@
     <header class="navbar">
         <DIV class="logo"> DIGITAL OCEAN </DIV>
 
-        <nav class="menu">
-            <a href="product.html">PRODUCT</a>
-            <a href="solution.html">SOLUTION</a>
-            <a href="devlopers.html">DEVLOPERS</a>
-            <a href="partners.html">PARTNERS</a>
-            <a href="pricing.html">PRICING</a>
-            <a href="login.html">LOG IN</a>
-            <a href="singup.html">SING UP</a>
 
-        </nav>
-
-       
-
+        <p style="margin-left: 60%;">Don't have an account?</p>
+        <a id="login-P" href="signup.html">SIGN UP</a>
 
     </header>
+    <div class="Droplet">
+        <img src="https://ui-managed-content.nyc3.cdn.digitaloceanspaces.com/GPU_Droplet_46154c095b.png" alt="Droplet"
+            width="80px">
+        <h1>Spin up GPU Droplets to
+            run AI/ML workloads</h1>
+        <h2>Our flexible, easy-to-use GPU solution is perfect for devs needing on-demand compute,
+            cost-effectiveness,and fast deployment.Train GenAI apps, br analyze huge data sets, perform inference, and
+            much
+            more on GPU Droplets.
+        </h2>
+
+
+    </div>
+
+
+    <div>
+
+        <form accept="user/login" method="post">
+            <h3>Log In To Your Account</h3>
+
+            <label for="Username">Username</label>
+            <br>
+            <input type="text" placeholder="Enter Your Username" id="Username" name="Username" required>
+            <br><br>
+            <label for="Email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter Your Email" id="Email" name="Email" required>
+            <br><br>
+            <label for="Pasword">Password</label>
+            <br>
+            <input type="password" placeholder="Enter Your Password" name="password" id="password" required>
+            <br><br>
+
+            <button type="submit"> Login</button>
+            <br><br>
+            <button id="bot-o" type="button"> <img src="https://developers.google.com/identity/images/g-logo.png"
+                    alt="google logo" width="20px"> Sign In With Google</button>
+            <br><br>
+            <button id="bot-n" type="button"><img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo"
+                    width="20px"> Sign In With GitHub</button>
+            <br><br><br><br>
+            <a href="forget.json"> Forget Password?</a>
+            <div id="foter">By continuing, you agree to the DigitalOcean <a href="term.text">Terms of Service</a> ,<br>
+                the <a href="privicy.text">Privacy Policy</a> , and other relevant
+                policies. This site uses cookies. See our Cookie Policy for more information.</div>
+    </div>
+    </form>
+
 </body>
 
 </html>
