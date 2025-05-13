@@ -1,0 +1,114 @@
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(https://ui-managed-content.nyc3.cdn.digitaloceanspaces.com/GPU_Droplet_2x_db2c9d9aed.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50% 100%;
+    
+}
+
+.logo {
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #0070f3;
+
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+    text-align: justify;
+    background-color: white;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+form {
+    margin: 45px;
+    width: 500px;
+    padding: 60px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+button {
+    width: 100%;
+    padding: 10px 60px;
+    margin-top: 15px;
+    border-radius: 12px;
+    color: white;
+    background-color: blue;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+#bot-o,
+#bot-n {
+    align-items: center;
+    gap: 8px;
+    color: black;
+    border-radius: 12px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 60px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#foter {
+
+    max-width: 500;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+
+
+}
+
+#login-P {
+
+    margin: 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    box-sizing: border-box;
+
+
+}
+
+.Droplet {
+
+    
+    max-width: 500px;
+    font-weight: 500px;
+    padding: 40px;
+    flex-direction: column;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1.6;
+
+}
