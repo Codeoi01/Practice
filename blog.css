@@ -1,0 +1,185 @@
+    body {
+
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url(https://www.digitalocean.com/_next/static/media/blog-home-header-bg.3542b661.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+        text-align: justify;
+        background-color: white;
+        padding: 20px 50px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu a {
+
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+
+    }
+
+
+    .logo {
+
+        font-size: 20px;
+        font-weight: bold;
+        color: #0070f3;
+
+
+    }
+
+    main {
+
+        text-align: center;
+        margin: 20px;
+        margin-left: auto;
+    }
+
+
+
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+
+
+    }
+
+    main article {
+        margin: 100px;
+        width: 320px;
+        border-radius: 12px;
+        background-color: #ffffff;
+        overflow: hidden;
+        padding: 16px;
+        font-family: sans-serif;
+        box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+        text-align: left;
+        float: left;
+    }
+
+    sec-tion {
+        display: inline-block;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+
+    }
+
+    #sec-tion {
+
+        margin: 100px;
+
+        border-radius: 12px;
+        background-color: #ffffff;
+        overflow: hidden;
+        padding: 16px 32px;
+        font-family: sans-serif;
+        box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+        float: left;
+
+
+
+
+    }
+
+
+    .pill {
+        margin: 0px;
+        padding: 10px 12px;
+        font-weight: 500px;
+        border-radius: 8px;
+        font-size: 14px;
+        align-items: center;
+        color: black;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+
+    .Category {
+
+        margin: 0;
+        padding: 10px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+        text-align: left;
+
+
+
+    }
+
+    #read-more {
+
+        display: inline-block;
+        margin-top: 12px;
+        font-size: 14px;
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+        font-weight: 500;
+        float: left;
+
+    }
+
+    #read-more:hover {
+
+        text-decoration: underline;
+
+    }
+
+    .center-m {
+
+        display: -ms-inline-grid;
+
+
+
+    }
+
+    .mini {
+
+        margin: 0;
+        padding: 3px 6px;
+        background-color: blue;
+        color: white;
+
+    }
+
+
+    .mini {
+
+        margin: 0px;
+        display: flex;
+        padding: 1px;
+        border-radius: 1px;
+        background-color: blue;
+        color: white;
+
+    }
+
+    footer {
+        margin: 100px;
+        width: 1000px;
+        height: 1000px;
+        padding: 10px 20px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+
+
+    }
